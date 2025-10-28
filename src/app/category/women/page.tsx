@@ -3,7 +3,6 @@ import ProductsList from "../../../components/ProductsList";
 import Header from "../../../components/Header";
 
 export default async function WomenPage() {
-  // קטגוריה קבועה ל-"women"
   const apiCategory = "women's clothing";
   let products = [];
 

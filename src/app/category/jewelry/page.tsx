@@ -2,8 +2,8 @@ import React from "react";
 import ProductsList from "../../../components/ProductsList";
 import Header from "../../../components/Header";
 
-export default async function MenPage() {
-  const apiCategory = "men's clothing";
+export default async function jewelry() {
+  const apiCategory = "jewelery";
   let products = [];
 
   try {
@@ -19,7 +19,7 @@ export default async function MenPage() {
     <main style={{ minHeight: "100vh", background: "#f8fafc", paddingBottom: 40 }}>
       <Header />
       <section style={{ maxWidth: 1200, margin: "28px auto 0", padding: "0 16px" }}>
-        <h2>Men</h2>
+        <h2>Jewlry</h2>
         <ProductsList products={products} />
       </section>
     </main>
