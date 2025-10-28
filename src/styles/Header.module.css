@@ -1,4 +1,59 @@
+
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 32px;
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+}
+
+.shopText {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.center {
+  display: flex;
+  gap: 16px;
+}
+
+.center a {
+  text-decoration: none;
+  color: #111827;
+  font-weight: 500;
+}
+
+.center a:hover {
+  color: #f59e0b;
+}
+
+.activeLink {
+    color: #f59e0b !important;
+    font-weight: bold !important;
+}
+
+.right a {
+  text-decoration: none;
+  color: #111827;
+  font-weight: 500;
+}
+
+
+
+/* .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,7 +90,7 @@
 }
 
 .center a:hover {
-  color: #3b82f6; /* כחול */
+  color: #3b82f6; 
 }
 
 .right {
@@ -47,4 +102,19 @@
   width: 28px;
   height: 28px;
   cursor: pointer;
-}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
