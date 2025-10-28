@@ -1,28 +1,35 @@
 .main {
   min-height: 100vh;
-  background: #f8fafc;
+  background: white;
+  /* background: #f8fafc; */
   padding-bottom: 40px;
 }
 
-.header {
-  padding: 16px;
-  background: white;
-  border-bottom: 1px solid #e5e7eb;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.mainBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    background-color: white;
+    border-bottom: 0px solid white;
 }
 
-.header h1 {
-  margin: 0;
-}
-
-.nav span {
-  margin-left: 12px;
+.bannerImage {
+    max-width: 1000px;
+    height: auto;
 }
 
 .section {
   max-width: 1200px;
   margin: 28px auto 0;
   padding: 0 16px;
+}
+
+.latestProductsTitle {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 24px;
+    margin-top: 0px; 
 }
