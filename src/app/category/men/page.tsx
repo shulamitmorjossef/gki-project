@@ -16,10 +16,9 @@ export default async function MenPage() {
   }
 
   return (
-    <main style={{ minHeight: "100vh", background: "#f8fafc", paddingBottom: 40 }}>
+    <main style={{ minHeight: "100vh", background: "white", paddingBottom: 40 }}>
       <Header />
       <section style={{ maxWidth: 1200, margin: "28px auto 0", padding: "0 16px" }}>
-        <h2>Men</h2>
         <ProductsList products={products} />
       </section>
     </main>
